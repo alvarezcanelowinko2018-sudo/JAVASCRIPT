@@ -233,3 +233,16 @@ let usersList = [
 
 for (let i = 0; i < usersList.length; i++)
     console.log(usersList[i]);
+
+document.write('<div class="container">');
+
+for (let i = 0; i < usersList.length; i++) {
+    document.write(`
+            <div class="user">
+                <h3>${usersList[i].name}</h3>
+                <p><b>Username:</b> ${usersList[i].username}</p>
+                <p><b>Email:</b> ${usersList[i].email}</p>
+                <p><b>City:</b> ${usersList[i].address.city}</p>
+            </div>
+        `);
+}

@@ -1,14 +1,10 @@
-.users {
+.container {
     display: flex;
     flex-wrap: wrap;
-
 }
-
 .user {
     width: 50%;
     box-sizing: border-box;
     padding: 10px;
-    border: 3px solid #776161;
+    border: 1px solid #ccc;
 }
-
-
