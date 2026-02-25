@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.course {
+    border: 5px solid red;
+    padding: 15px;
+    margin-bottom: 90px;
+}
+
+.title {
+    border: 3px solid darkslategray;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.durations {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.durations > div {
+    border: 3px solid darkslategray;
+    padding: 8px;
+}
+
+.modules > div {
+    border: 3px solid darkslategray;
+    border-radius: 5px;
+    padding: 6px;
+    margin-bottom: 5px;
+}
